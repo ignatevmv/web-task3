@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="ru">
+	<head>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    	<title>SVG Рисунок</title>
+  	</head>
+  	<body>
+  		<header>
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+				<a class="navbar-brand" href="index.html">Hello</a>
+			  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    	<span class="navbar-toggler-icon"></span>
+			  	</button>
+
+			  	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				    <ul class="navbar-nav mr-auto">
+				    	<li class="nav-item">
+				      		<a class="nav-link" href="index.html">Главная</a>
+				      	</li>
+				      	<li class="nav-item">
+				        	<a class="nav-link" href="table.html" data-toggle="tooltip" title="Таблица" data-placement="top">Топ-5 населенных стран</a>
+				      	</li>
+				      	<li class="nav-item">
+				        	<a class="nav-link" href="formuls.html" data-toggle="tooltip" title="Еще одна таблица" data-placement="top">Математические формулы</a>
+				      	</li>
+				      	<li class="nav-item active">
+				      		<a class="nav-link" href="svg.html">SVG Рисунок<span class="sr-only">(current)</span></a>
+				      	</li>
+				      	<li class="nav-item dropdown">
+				        	<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				          		Задачи
+				        	</a>
+				        	<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					         	<a class="dropdown-item" href="../task1/page3.html">Задача 1</a>
+					          	<a class="dropdown-item" href="../task2/page3.html">Задача 2</a>
+					          	<a class="dropdown-item" href="../task3/index.html">Задача 3</a>
+					          	<a class="dropdown-item" href="../task4/index.html">Задача 4</a>
+					          	<a class="dropdown-item" href="../task5/js.html">Задача 5</a>
+					          	<a class="dropdown-item" href="../task6/index.html">Задача 6</a>
+				        	</div>
+				      	</li>
+				      	<li class="nav-item">
+				        	<a class="nav-link" href="https://github.com/ignatevmv/web-task3" data-toggle="tooltip" title="Исходный код" data-placement="top">Git Hub</a>
+				      	</li>
+				      	<li class="nav-item">
+				        	<a class="nav-link disabled" href="#" data-toggle="modal" data-target="#exampleModal">
+				        		Итем сломан
+				        	</a>
+							<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							  	<div class="modal-dialog" role="document">
+							    	<div class="modal-content">
+							      		<div class="modal-header">
+							        		<h5 class="modal-title" id="exampleModalLabel">No no no!!!</h5>
+							        		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							          			<span aria-hidden="true">&times;</span>
+							        		</button>
+							      		</div>
+							      		<div class="modal-footer">
+							        		<button type="button" class="btn btn-secondary" data-dismiss="modal">OK</button>
+							      		</div>
+							    	</div>
+							  	</div>
+							</div>
+				      	</li>
+			    	</ul>
+			  	</div>
+			</nav>
+		</header>
+		<section>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-12 col-sm-12 col-12 col-lg-5 col-xl-5">
+						<br/>
+						<svg width="532" height="532">
+							// Тело
+  							<rect x="206" y="191" width="100" height="140" style="fill:#992022;stroke-width:3;stroke:#771113" /> 
+  							// Левая нога
+  							<rect x="221" y="331" width="30" height="60" style="fill:#efbb6e;stroke-width:3;stroke:#771113" /> 
+  							<rect x="218" y="391" width="36" height="5" style="fill:#771113;" />
+  							// Правая нога 
+  							<rect x="261" y="331" width="30" height="60" style="fill:#efbb6e;stroke-width:3;stroke:#771113" />
+  							<rect x="258" y="391" width="36" height="5" style="fill:#771113;" />
+  							// Левая рука
+  							<rect x="193" y="205" width="12" height="15" style="fill:#992022;" /> 
+  							<rect x="191" y="163" transform="translate(20,2.5) rotate(10)" width="20" height="73" style="fill:#efbb6e;stroke-width:3;stroke:#771113" /> 
+  							// Правая рука
+  							<rect x="307" y="205" width="12" height="15" style="fill:#992022;" /> 
+  							<rect x="254" y="245" transform="translate(20,2.5) rotate(-10)" width="20" height="73" style="fill:#efbb6e;stroke-width:3;stroke:#771113" />
+  							// Шея и голова
+  							<rect x="236" y="184" width="40" height="6" style="fill:#992022;" /> 
+  							<rect x="226" y="134" width="60" height="50" rx="7" ry="7" style="fill:#efbb6e;stroke-width:3;stroke:#771113" /> 
+
+  							<circle cx="256" cy="230" r="20" stroke="#efbb6e" stroke-width="4" fill="#1c11e0" />
+
+  							<circle cx="246" cy="155" r="5" stroke="#06007f" stroke-width="2" fill="#1c11e0" />
+  							<circle cx="269" cy="155" r="5" stroke="#06007f" stroke-width="2" fill="#1c11e0" />
+						</svg>
+					</div>
+				</div>
+			</div>
+		</section>
+	    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	    <script>
+			$( document ).ready(function() {
+		    	$('[data-toggle="tooltip"]').tooltip({'placement': 'top'});
+		    });
+    	</script>
+  </body>
+</html>

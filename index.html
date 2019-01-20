@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="ru">
+	<head>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    	<title>Главная</title>
+  	</head>
+  	<body>
+  		<header>
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+				<a class="navbar-brand" href="index.html">Hello</a>
+			  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    	<span class="navbar-toggler-icon"></span>
+			  	</button>
+
+			  	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				    <ul class="navbar-nav mr-auto">
+				    	<li class="nav-item active">
+				      		<a class="nav-link" href="index.html">Главная<span class="sr-only">(current)</span></a>
+				      	</li>
+				      	<li class="nav-item">
+				        	<a class="nav-link" href="table.html">Топ-5 населенных стран</a>
+				      	</li>
+				      	<li class="nav-item">
+				        	<a class="nav-link" href="formuls.html">Математические формулы</a>
+				      	</li>
+				      	<li class="nav-item">
+				      		<a class="nav-link" href="svg.html">SVG Рисунок</a>
+				      	</li>
+				      	<li class="nav-item dropdown">
+				        	<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				          		Задачи
+				        	</a>
+				        	<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					         	<a class="dropdown-item" href="../task1/page3.html">Задача 1</a>
+					          	<a class="dropdown-item" href="../task2/page3.html">Задача 2</a>
+					          	<a class="dropdown-item" href="../task3/index.html">Задача 3</a>
+					          	<a class="dropdown-item" href="../task4/index.html">Задача 4</a>
+					          	<a class="dropdown-item" href="../task5/js.html">Задача 5</a>
+					          	<a class="dropdown-item" href="../task6/index.html">Задача 6</a>
+				        	</div>
+				      	</li>
+				      	<li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Исходный код">
+				        	<a class="nav-link" href="https://github.com/ignatevmv/web-task3">Git Hub</a>
+				      	</li>
+				      	<li class="nav-item">
+				        	<a class="nav-link disabled" href="#" data-toggle="modal" data-target="#exampleModal">
+				        		Итем сломан
+				        	</a>
+							<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							  	<div class="modal-dialog" role="document">
+							    	<div class="modal-content">
+							      		<div class="modal-header">
+							        		<h5 class="modal-title" id="exampleModalLabel">No no no!!!</h5>
+							        		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							          			<span aria-hidden="true">&times;</span>
+							        		</button>
+							      		</div>
+							      		<div class="modal-footer">
+							        		<button type="button" class="btn btn-secondary" data-dismiss="modal">OK</button>
+							      		</div>
+							    	</div>
+							  	</div>
+							</div>
+				      	</li>
+			    	</ul>
+			  	</div>
+			</nav>
+			<nav aria-label="breadcrumb">
+  				<ol class="breadcrumb">
+    				<li class="breadcrumb-item"><a href="index.html">Главная</a></li>
+    				<li class="breadcrumb-item active" aria-current="page">Топ-5 населенных стран</li>
+  				</ol>
+			</nav>
+		</header>
+		<section>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-12 col-sm-12 col-12 col-lg-5 col-xl-5">
+						<br/>
+						<nav>
+							<div class="nav nav-tabs" id="nav-tab" role="tablist">
+								<a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Сидней</a>
+								<a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Ниагарский водопад</a>
+								<a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Великая Китайская стена <span class="badge badge-secondary">New</span></a>
+							</div>
+						</nav>
+						<div class="tab-content" id="nav-tabContent">
+							<div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+								<br/>
+								<div class="media">
+									<div class="media-body">
+										<h5 class="mt-0 text-info">Сидней</h5>
+										<p>
+											Самый большой и самый старый город Австралии площадью 12 144,6 км², население которого по состоянию на июнь 2017 года составляло 5 131 326 человек. Сидней является столицей штата Новый Южный Уэльс. Город был основан в 1788 году Артуром Филлипом, который прибыл сюда во главе Первого флота, и являлся местом первого колониального европейского поселения в Австралии. Город был назван колонистами в честь лорда Сиднея — бывшего на тот момент министром колоний Великобритании.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+								<br/>
+								<div class="media">
+									<div class="media-body">
+										<h5 class="mt-0 text-info">Ниагарский водопад</h5>
+										<p>
+											Комплекс водопадов на реке Ниагаре, отделяющий американский штат Нью-Йорк от канадской провинции Онтарио. Ниагарские водопады — это водопад «Подкова» (англ. Horseshoe Falls), иногда ещё называемый «Канадским водопадом» (англ. Canadian Falls), «Американский водопад» (англ. American Falls) и водопад «Фата́» (англ. Bridal Veil Falls). Хотя перепад высот и не очень велик, водопады очень широки, и по объёму проходящей через него воды Ниагарский водопад — самый мощный в Северной Америке.
+											Высота водопадов составляет 53 метра. Подножие Американского водопада заслоняет нагромождение камней, из-за чего его видимая высота — только 21 метр. Ширина Американского водопада — 323 метра, водопада «Подкова» — 792 метра. Объём падающей воды достигает 5700 и более м³/с.
+										</p>
+									</div>
+								</div>
+							</div>
+							
+							<div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+								<br>
+								<div class="media">
+									<div class="media-body">
+										<h5 class="mt-0 text-info">Великая Китайская стена</h5>
+										<p>
+											Проходит по северному Китаю на протяжении 8851,9 км, а на участке Бадалин проходит в непосредственной близости от Пекина (это длина последнего сооружения эпохи Минской династии, причём сюда входят 6259 км собственно стен, 359 км рвов, 2232 км естественных защитных рубежей в виде холмов и рек). 
+											Длина стены со всеми ответвлениями составляет 21 196 километров.
+											Толщина Великой стены в основном около 5—8 метров, а высота чаще всего около 6—7 метров (на некоторых участках высота достигает 10 метров).
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<hr/>
+					</div>
+					<div class="col-md-12 col-sm-12 col-12 col-lg-7 col-xl-7">
+						<br/>
+					<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  						<ol class="carousel-indicators">
+						    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+						    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+						    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+						</ol>
+						<div class="carousel-inner">
+    						<div class="carousel-item active">
+     							<img class="d-block w-100 img-fluid rounded" src="http://wp.widewallpapers.ru/2k/cities/sydney/1920x1080/Sydney-1920x1080-003.jpg" alt="First slide">
+    						</div>
+   							<div class="carousel-item">
+      							<img class="d-block w-100" src="http://cdn.oboi7.com/content/images/44/68/44683939dc69ff8bf240e61ae0ac71c65e855976.jpg">
+						    </div>
+						    <div class="carousel-item">
+						    	<img class="d-block w-100" src="https://s1.1zoom.ru/b7148/640/The_Great_Wall_of_China_China_Sunrises_and_sunsets_512898_1920x1080.jpg" alt="Third slide">
+						    </div>
+  						</div>
+						<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+					    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+					    	<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					    	<span class="sr-only">Next</span>
+					    </a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-2"></div>
+					<div class="col-md-4">
+						<br/>
+						<br/>
+						<div class="card">
+					  		<img class="card-img-top" src="http://www.forumdaily.com/wp-content/uploads/2017/06/Depositphotos_92809082_l-2015-1024x683.jpg" alt="Card image cap">
+					  		<div class="card-body">
+					    		<h5 class="card-title">Нью-Йорк</h5>
+					  		</div>
+						</div>
+						<br/>
+					</div>
+					<div class="col-md-4">
+						<br/>
+						<br/>
+						<div class="card">
+					  		<img class="card-img-top" src="https://stogorodov.ru/images/cities/europe/london/vid-na-london.jpg" alt="Card image cap">
+					  		<div class="card-body">
+					    		<h5 class="card-title">Лондон</h5>
+					  		</div>
+						</div>
+						<br/>
+					</div>
+					<div class="col-md-2"></div>
+				</div>
+				<div class="row">
+					<div class="col-md-2"></div>
+					<div class="col-md-4">
+						<br/>
+						<br/>
+						<div class="card">
+					  		<img class="card-img-top" src="http://smarttrip.ru/wp-content/uploads/2014/08/parizh-glavnaya.jpg" alt="Card image cap">
+					  		<div class="card-body">
+					    		<h5 class="card-title">Париж</h5>
+					  		</div>
+						</div>
+						<br/>
+					</div>
+					<div class="col-md-4">
+						<br/>
+						<br/>
+						<div class="card">
+					  		<img class="card-img-top" src="http://braziliyaway.ru/sites/all/field/image/statuya-hrista.jpg" alt="Card image cap">
+					  		<div class="card-body">
+					    		<h5 class="card-title">Рио-де-Жанейро</h5>
+					  		</div>
+						</div>
+						<br/>
+					</div>
+					<div class="col-md-2"></div>
+				</div>
+			</div>
+		</section>
+	    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	    <script>
+			$( document ).ready(function() {
+		    	$('[data-toggle="tooltip"]').tooltip({'placement': 'top'});
+		    });
+    	</script>
+  </body>
+</html>
