@@ -4,6 +4,7 @@
 	    <meta charset="utf-8">
 	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" type="text/css" rel="stylesheet">
     	<title>Главная</title>
   	</head>
   	<body>
@@ -17,20 +18,20 @@
 			  	<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				    <ul class="navbar-nav mr-auto">
 				    	<li class="nav-item active">
-				      		<a class="nav-link" href="index.html">Главная<span class="sr-only">(current)</span></a>
+				      		<a class="nav-link" href="index.html">Главная <i class="fa fa-home"></i></a>
 				      	</li>
 				      	<li class="nav-item">
-				        	<a class="nav-link" href="table.html">Топ-5 населенных стран</a>
+				        	<a class="nav-link" href="table.html">Топ-5 населенных стран <i class="fa fa-globe"></i></a>
 				      	</li>
 				      	<li class="nav-item">
-				        	<a class="nav-link" href="formuls.html">Математические формулы</a>
+				        	<a class="nav-link" href="formuls.html">Математические формулы <i class="fa fa-superscript"></i></a>
 				      	</li>
 				      	<li class="nav-item">
-				      		<a class="nav-link" href="svg.html">SVG Рисунок</a>
+				      		<a class="nav-link" href="svg.html">SVG Рисунок <i class="fa fa-star"></i></a>
 				      	</li>
 				      	<li class="nav-item dropdown">
 				        	<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-				          		Задачи
+				          		Задачи <i class="fa fa-tasks"></i>
 				        	</a>
 				        	<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 					         	<a class="dropdown-item" href="../task1/page3.html">Задача 1</a>
@@ -42,11 +43,11 @@
 				        	</div>
 				      	</li>
 				      	<li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Исходный код">
-				        	<a class="nav-link" href="https://github.com/ignatevmv/web-task3">Git Hub</a>
+				        	<a class="nav-link" href="https://github.com/ignatevmv/web-task3">Git Hub <i class="fa fa-github"></i></a>
 				      	</li>
 				      	<li class="nav-item">
 				        	<a class="nav-link disabled" href="#" data-toggle="modal" data-target="#exampleModal">
-				        		Итем сломан
+				        		Итем сломан <i class="fa fa-exclamation-circle"></i>
 				        	</a>
 							<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 							  	<div class="modal-dialog" role="document">
@@ -66,12 +67,6 @@
 				      	</li>
 			    	</ul>
 			  	</div>
-			</nav>
-			<nav aria-label="breadcrumb">
-  				<ol class="breadcrumb">
-    				<li class="breadcrumb-item"><a href="index.html">Главная</a></li>
-    				<li class="breadcrumb-item active" aria-current="page">Топ-5 населенных стран</li>
-  				</ol>
 			</nav>
 		</header>
 		<section>
@@ -157,8 +152,64 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-2"></div>
-					<div class="col-md-4">
+					<div class="col-xl-1"></div>
+					<div class="col-xl-4">
+						<br/>
+						<br/>
+						<div id="accordion">
+							<br>
+							<div class="card">
+								<div class="card-header" id="headingOne">
+									<h5 class="mb-0">
+									<button class="btn btn-link" data-toggle="collapse" data-target="#menu" aria-expanded="true" aria-controls="SiteMap">
+									Меню
+									</button>
+									</h5>
+								</div>
+								<div id="menu" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+									<div class="card-body">
+										<!-- <a href="index.html">Главная</a> -->
+										<ul>
+											<li><a href="index.html">Главная</a></li>
+											<li>
+												<a href="#">Задания</a>
+												<ul>
+													<li><a href="table.html">Таблица</a></li>
+													<li> <a href="formuls.html">Мат. формулы</a></li>
+													<li><a href="svg.html">SVG Рисунок</a></li>
+												</ul>
+											</li>
+											<li><a href="https://github.com/ignatevmv/web-task3">Git Hub</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-header" id="headingTwo">
+									<h5 class="mb-0">
+									<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#last-tasks" aria-expanded="false" aria-controls="Contacts">
+									Прошлые задачи
+									</button>
+									</h5>
+								</div>
+								<div id="last-tasks" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+									<div class="card-body">
+										<ul>
+											<li><a href="../task1/index.html">Задача 1</a></li>
+											<li><a href="../task2/index.html">Задача 2</a></li>
+											<li><a href="../task3/index.html">Задача 3</a></li>
+											<li><a href="../task4/index.html">Задача 4</a></li>
+											<li><a href="../task5/js.html">Задача 5</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br/>
+						<br/>
+					</div>
+					<div class="col-xl-3">
+						<br/>
 						<br/>
 						<br/>
 						<div class="card">
@@ -169,7 +220,8 @@
 						</div>
 						<br/>
 					</div>
-					<div class="col-md-4">
+					<div class="col-xl-3">
+						<br/>
 						<br/>
 						<br/>
 						<div class="card">
@@ -180,33 +232,7 @@
 						</div>
 						<br/>
 					</div>
-					<div class="col-md-2"></div>
-				</div>
-				<div class="row">
-					<div class="col-md-2"></div>
-					<div class="col-md-4">
-						<br/>
-						<br/>
-						<div class="card">
-					  		<img class="card-img-top" src="http://smarttrip.ru/wp-content/uploads/2014/08/parizh-glavnaya.jpg" alt="Card image cap">
-					  		<div class="card-body">
-					    		<h5 class="card-title">Париж</h5>
-					  		</div>
-						</div>
-						<br/>
-					</div>
-					<div class="col-md-4">
-						<br/>
-						<br/>
-						<div class="card">
-					  		<img class="card-img-top" src="http://braziliyaway.ru/sites/all/field/image/statuya-hrista.jpg" alt="Card image cap">
-					  		<div class="card-body">
-					    		<h5 class="card-title">Рио-де-Жанейро</h5>
-					  		</div>
-						</div>
-						<br/>
-					</div>
-					<div class="col-md-2"></div>
+					<div class="col-xl-1"></div>
 				</div>
 			</div>
 		</section>
